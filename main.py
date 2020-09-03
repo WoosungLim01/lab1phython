@@ -10,4 +10,4 @@ elif unit == "C" or unit == "c":
   Fahrenheit = (temp - 32) * 5/9
   print(f"{str(temp)}° in Celsius is equivalent to {str(Fahrenheit)}° Fahrenheit.")
 else:
-  print("Invalid unit("+unit+")")
+  print("Invalid unit("+unit+").")
